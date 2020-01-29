@@ -1,4 +1,5 @@
-﻿using System;
+﻿using console_stars.Contracts;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -10,12 +11,12 @@ namespace console_stars
     {
         static void Main(string[] args)
         {
+            differentLoops dL = new differentLoops();
 
-            const string helloWorldString = "hello world";
-            Console.Write(helloWorldString);
+            dL.SquareLoopMethod();
+            dL.IncreasingLoop();
+
             Console.ReadLine();
-
-
         }
     }
 }
