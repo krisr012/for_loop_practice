@@ -10,8 +10,12 @@ namespace console_stars
     {
         static void Main(string[] args)
         {
-            Console.Write("Hello world!");
+
+            const string helloWorldString = "hello world";
+            Console.Write(helloWorldString);
             Console.ReadLine();
+
+
         }
     }
 }
